@@ -1,0 +1,81 @@
+body {
+  margin: 0 auto;
+  background: #f5f5f5;
+  color: #4d4d4d;
+  min-width: 230px;
+  max-width: 550px;
+  font-weight: 300;
+}
+
+.stopwatch {
+  position: relative;
+  border-radius: 2px;
+}  
+
+.name {
+  width: 100%;
+  font-size: 80px;
+  text-align: center;
+  color: rgba(15, 15, 15, 0.5);
+  text-rendering: optimizeLegibility;
+  margin: 20px auto;
+}
+
+.time {
+  background: #fff;
+  border: rgb(138, 147, 167) 1px solid ;
+  border-radius: 20px;
+  width: 100%;
+  font-size: 80px;
+  font-weight: 100;
+  text-align: center;
+  text-rendering: optimizeLegibility;
+  margin: 0 auto;
+}
+
+.main {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border: rgb(138, 147, 167) 1px solid ;
+  border-radius: 20px;
+  background: rgb(138, 147, 167);
+}
+.container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  font-size: 20px;
+}
+
+.button {
+  border-width: 1px;
+  cursor: pointer;
+  justify-content: center;
+  padding-bottom: 5px;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 5px;
+  text-align: center;
+  white-space: nowrap;
+  border-radius: 20px;
+  margin: auto;
+
+  &:hover {
+    background-color: rgb(151, 127, 127);
+  }
+}   
+
+.is_dark {
+  background-color: #3b3b3b;
+  border-color: transparent;
+  color: #fff
+}
+
+.is_red {
+  background-color: #830000;
+  border-color: transparent;
+  color: #fff
+}
